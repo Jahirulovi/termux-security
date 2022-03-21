@@ -26,14 +26,14 @@ cd Termux-Security
 cp singin.sh $PREFIX/etc
 cd $HOME
 cd Termux-Security 
-chmod +x singin.sh remove.sh install.sh access-sound_effect.py denied-sound-effict.py interface.sh 
+chmod +x singin.sh remove.sh install.sh access_sound_effect.py denied-sound-effict.py interface.sh 
 mkdir Song 
 mv Access-Granted.mp3 Access-Granted-with-tone.mp3 Female-Voice-Access.mp3 access_sound_effect.py Song
 rm 1
 
-mv Access-Granted.mp3 denied_sound_effect.py Song
+mv Access-Granted.mp3 denied-sound-effect.py Song
 rm 1
-mv network.py /sdcard
+mv network.py /sdcar
 mv network.py /sdcard
 
 cd $HOME 
