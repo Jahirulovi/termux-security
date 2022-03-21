@@ -20,15 +20,15 @@ apt update
 
 apt install git
 
-git clone 
+git clone https://github.com/Jahirulovi/termux-security.git
 
-cd Termux-Login
+cd Termux-Security
 
-chmod +x setup.sh login.sh
+chmod +x install.sh singin.sh
 
-bash setup.sh
+bash install.sh
 
-bash login.sh
+bash singin.sh
 
 Exit and Login To apply changes
 
