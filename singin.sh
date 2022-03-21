@@ -38,7 +38,7 @@ clear
 cd $HOME
 cd Termux-Login
 cd Song
-python sound_effect.py
+python access-sound_effect.py
 clear
 cd $HOME 
 echo -e "\033[1m\033[33m
