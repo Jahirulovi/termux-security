@@ -36,7 +36,7 @@ if [[ \$pass == $password && \$user == $username ]]; then
 sleep 3
 clear
 cd $HOME
-cd Termux-Login
+cd Termux-Security
 cd Song
 python access-sound_effect.py
 clear
@@ -75,16 +75,16 @@ shopt -s compat32
 shopt -s lithist
 comment
 cd $HOME
-cd Termux-Login
+cd Termux-Security
 cd
 else
 echo ""
-echo -e "\e[1;31m  Your Password Is Incorrect ! <)
+echo -e "\e[1;31m  Your Password Is Incorrect ! ☹️<)
 \e[0m"
 sleep 1
 clear
 cd $HOME
-cd Termux-Login
+cd Termux-Security
 cd Song
 python denied-sound_effect.py
 clear
