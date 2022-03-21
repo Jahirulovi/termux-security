@@ -86,7 +86,7 @@ clear
 cd $HOME
 cd Termux-Login
 cd Song
-python sound_effect.py
+python denied-sound_effect.py
 clear
 cmatrix -L
 fi
