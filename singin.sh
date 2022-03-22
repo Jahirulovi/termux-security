@@ -91,7 +91,7 @@ clear
 cmatrix -L
 fi
 trap 2
-LOGIN
+SINGIN
 echo 
 echo
 echo 
