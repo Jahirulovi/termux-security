@@ -13,7 +13,7 @@ cd ..
 cd usr/etc                                       
 rm motd                                           
 rm bash.bashrc                                       
-cat <<LOGIN>bash.bashrc                            
+cat <<SINGIN>bash.bashrc                            
 
 trap '' 2                                          
 echo -e "\e[1;32m
@@ -30,7 +30,7 @@ echo -e "\e[1;32m
 
 \e[0m"
 echo
-read -p $'       \e[33m\033[1m\033[33m[\033[31m+\033[33m] \033[37mINPUT \033[33mUSERNAME :\033[32m ' user
+read -p $'       \e[33m\033[1m\033[33m[\033[31m+\033[33m] \033[37mINPUT \033[33mUSER ID :\033[32m ' user
 read -s -p $'       \e[32m\033[1m\033[33m[\033[31m+\033[33m] \033[37mINPUT \033[33mPASSWORD :\033[33m ' pass                                                
 if [[ \$pass == $password && \$user == $username ]]; then
 sleep 3
