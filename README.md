@@ -1,5 +1,5 @@
 # termux-security
-I hope sucure your termux! 🙂🌹😊
+I hope this tools sucure your termux! 🙂🌹😊
 
 
 COPYRIGHT
