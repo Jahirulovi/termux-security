@@ -359,10 +359,9 @@ echo -e "\033[32m\033[1m
 
      \033[1m\033[36mTool Name       \033[32m: \033[33mTermux-Security
      \033[1m\033[36mAuthor_Name     \033[32m: \033[33mMd Jahirul Islam (অভি) 
-     \033[1m\033[36mYouTube_Channel \033[32m: \033[33mJahirul Ovi
+     \033[1m\033[36mCompany_Name    \033[32m: \033[33mJahirul Ovi
      \033[1m\033[36mCountry         \033[32m: \033[33mBangladesh
-     \033[1m\033[36mDivision        \033[32m: \033[33mDhaka
-     \033[1m\033[36mCity            \033[32m: \033[33mTangail
+     
   \033[31m________________________________________________
 "
 
