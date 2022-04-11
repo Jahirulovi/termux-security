@@ -36,7 +36,7 @@ if [[ \$pass == $password && \$user == $username ]]; then
 sleep 3
 clear
 cd $HOME
-cd Termux-Security
+cd termux-security
 cd Song
 python access_sound_effect.py
 clear
@@ -49,6 +49,18 @@ echo -e "\033[1m\033[33m
 ██╔══██║██╔══██║██║     ██╔═██╗ ██╔══╝  ██╔══██╗
 ██║  ██║██║  ██║╚██████╗██║  ██╗███████╗██║  ██║
 ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ 
+
+▄▄▄▄▄
+    ▀▀▀██
+       ██   ▄████▄
+       ██  ██▀  ▀██
+       ██  ██    ██
+ █▄▄▄▄▄██  ▀██▄▄██▀
+  ▀▀▀▀▀      ▀▀▀▀
+
+
+
+
 "
 echo -e  "     \e[1m\e[32m▂▃▄▅▆▇▓▒░ \033[1mCoded By \e[33mM4ND33P \e[1m\e[32m░▒▓▇▆▅▄▃▂"
 cd /sdcard
@@ -75,7 +87,7 @@ shopt -s compat32
 shopt -s lithist
 comment
 cd $HOME
-cd Termux-Security
+cd termux-security
 cd
 else
 echo ""
@@ -85,7 +97,7 @@ sleep 1
 cmatrix -L
 clear
 cd $HOME
-cd Termux-Security
+cd termux-security
 cd Song
 python denied-sound_effect.py
 clear
